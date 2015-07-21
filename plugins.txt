@@ -1,0 +1,6 @@
+codedeploy:1.6
+authentication-tokens:1.1
+docker-build-publish:1.0
+token-macro:1.10
+docker-commons:1.0
+sbt:1.5
