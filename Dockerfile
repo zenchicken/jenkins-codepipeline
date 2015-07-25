@@ -1,7 +1,7 @@
 FROM jenkins:latest
 
 USER root
-RUN apt-get update && apt-get install -y docker.io maven ruby rake
+RUN apt-get update && apt-get install -y docker.io maven ruby rake nodejs
 USER jenkins
 
 COPY plugins.txt /usr/share/jenkins/ref/
